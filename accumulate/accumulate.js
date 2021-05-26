@@ -1,12 +1,3 @@
-//
-// This is only a SKELETON file for the 'Accumulate' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
-
-export const accumulate = (variable,fun) => {
-  let result = [];
-  for (let x of variable){
-    result.push(fun(x));
-  };
-  return result;
-  };
+export const accumulate = (variable, fun) => variable.map(fun);
+{
+}
